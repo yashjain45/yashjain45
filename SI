@@ -1,0 +1,8 @@
+p=input("Enter the principal =")
+p=float(p)
+r=input("Enter the rate =")
+r=float(r)
+t=input("enter the time =")
+t=float(t)
+si=(p*r*t)/100;
+print("SI =",si)
