@@ -1,0 +1,21 @@
+import math
+print("Enter coefficients of quadratic equations")
+a=float(input("a="))
+b=float(input("b="))
+c=float(input("c="))
+d=((b**2-4*a*c))
+if(d>0):
+    print("The roots are real and different")
+    r1=((-b+math.sqrt(b*b-4*a*c))/(2*a))
+    r2=((-b-math.sqrt(b*b-4*a*c))/(2*a))
+elif(d==0):
+    print("The roots are equal and equal")
+    r1=r2=(-b/(2*a))
+else:
+    print("roots are imaginary")
+    r1=(-b/(2*a))
+    r2=(-b/(2*a))
+    print("the imaginary part is")
+    imp=((math.sqrt(-d))/(2*a))
+print("The roots are r1=%f and r2=%f"%(r1,r2) )
+
