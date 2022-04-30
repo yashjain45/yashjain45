@@ -1,0 +1,8 @@
+n1=int(input("Enter first number ="))
+n2=int(input("Enter second number="))
+for i in range(2,n1+1):
+    if(n1%i==0)and(n2%i==0):
+        HCF=i
+print("HCF of two numbers =",HCF)
+LCM=(n1*n2)//HCF
+print("LCM of two numbers =",LCM)
