@@ -1,0 +1,12 @@
+x={}
+print("The number of key value pairs \n")
+n=int(input())
+for i in range(n):
+    print('Enter player name\n')
+    k=input()
+    print('enter score\n')
+    y=int(input())
+    x.update({k:y})
+print(x)
+for e in x.keys():
+    print(e,'=',x[e])
