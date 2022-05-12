@@ -1,0 +1,5 @@
+l=['yash','harsh','aryan']
+l2=['jain','gupta','gautam']
+z=zip(l,l2)
+d=dict(z)
+print(d)
