@@ -1,0 +1,7 @@
+s='yash=20,harsh=18,aryan=18'
+lst=[]
+for x in s.split(','):
+    y=x.split('=')
+    lst.append(y)
+d=dict(lst)
+print(d)
