@@ -1,0 +1,5 @@
+d={'yash':'jain','aryan':'gautam','harsh':'gupta'}
+d['tanya']='sharma'
+print(d)
+del d['tanya']
+print(d)
