@@ -1,0 +1,10 @@
+x={}
+print("The number of key value pairs \n")
+n=int(input())
+for i in range(n):
+    print('Enter key\n')
+    k=int(input())
+    print('enter value\n')
+    y=int(input())
+    x.update({k:y})
+print(x)
