@@ -1,0 +1,3 @@
+d={'yash':'jain','aryan':'gautam','harsh':'gupta'}
+n=len(d)
+print('The number of key value pairs =',n)
