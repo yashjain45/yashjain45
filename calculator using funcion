@@ -1,0 +1,11 @@
+def calc(a,b):
+    c=a+b
+    e=a-b
+    f=a*b
+    g=a/b
+    return c,e,f,g
+n=int(input('Enter a number'))
+m=int(input('Enter a number'))
+t=calc(n,m)
+for i in t:
+    print(i)
