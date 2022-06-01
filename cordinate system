@@ -1,0 +1,13 @@
+import math
+x1=float(input("Enter x cordinate of circle:"))
+y1=float(input("Enter y coordinate of circle:"))
+x2=float(input("Enter x coordinate of point:"))
+y2=float(input("Enter y cordinate of point:"))
+r=float(input("Enter the radius of circle:"))
+p=math.sqrt((x2-x1)**2+(y2-y1)**2)
+if(p>r):
+    print("Point lies outside the circle")
+elif(p<r):
+    print("Point lies inside the circle")
+else:
+    print("Point lies on the circle")
