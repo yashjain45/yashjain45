@@ -1,0 +1,8 @@
+s=input('Enter a string:')
+s1=[]
+l=len(s)
+for i in s:
+    i=chr(ord(i)+32)
+    s1.append(i)
+s1=''.join(s1)
+print(s1)
