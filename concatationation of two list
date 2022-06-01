@@ -1,0 +1,12 @@
+lst=[]
+lst1=[]
+
+n=int(input('Enter size of list ='))
+for i in range(0,n):
+    lst.append(int(input()))
+n1=int(input('Enter size of list 2'))
+for i in range(0,n1):
+    lst1.append(int(input()))
+
+    
+print(lst1+lst)
