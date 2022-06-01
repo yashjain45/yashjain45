@@ -1,0 +1,9 @@
+s=[]
+n=int(input("Enter number of strings :"))
+print("Enter the strings \n")
+for i in range(0,n):
+    s.append(input())
+#s.sort() or
+s1=sorted(s)
+print("Strings after sorting:")
+print(s1)
