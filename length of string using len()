@@ -1,0 +1,3 @@
+s=input("Enter a string\n")
+l=len(s)
+print("Length of string =",l)
