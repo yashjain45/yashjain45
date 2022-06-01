@@ -1,0 +1,6 @@
+try:
+    x=int(input('Enter a number :'))
+    assert x>5 and x<10
+    print('The entered number ',x)
+except AssertionError:
+    print("condition is not  fullfilled")
