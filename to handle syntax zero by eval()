@@ -1,0 +1,8 @@
+try:
+    date=eval(input('enter date'))
+except SyntaxError:
+    print('Invalid date')
+except :
+    print('Inalid date')
+else:
+    print('You entered the date')
