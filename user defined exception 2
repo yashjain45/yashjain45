@@ -1,0 +1,13 @@
+class BalanceException(Exception):
+    pass
+def check():
+    m=int(input("Enter money in bank"))
+    w=int(input("Enter money withdrawn"))
+    b=m-w
+    print(b)
+    if(b<=1000):
+        raise BalanceException('Insufficient Balance')
+try:
+    check()
+except BalanceException as be:
+    print(be)
