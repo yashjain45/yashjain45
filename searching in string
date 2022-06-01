@@ -1,0 +1,15 @@
+s=[]
+f=False
+n=int(input("Enter number od string \n"))
+print("Enter the strings\n")
+for i in range(0,n):
+    s.append(input())
+s2=input("Enter a string you want to search\n")
+l=len(s)
+for i in range(0,l):
+    if s[i]==s2:
+        print("String found at position",i+1)
+        f=True
+        break
+if f==False:
+    print("String not found")
