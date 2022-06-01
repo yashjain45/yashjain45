@@ -1,0 +1,11 @@
+l1=[2,3,4,5]
+l2=[6,7,8,9]
+l3=[]
+l=[]
+n=len(l1)
+for i in range(n):
+    l3.append(l1[i])
+    l3.append(l2[i])
+    l.append(tuple(l3))
+    l3=[]
+print(l)
