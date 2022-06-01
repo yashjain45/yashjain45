@@ -1,0 +1,16 @@
+lst=[]
+n=int(input('Enter size of list ='))
+for i in range(0,n):
+    lst.append(int(input('Enter element =')))
+max1=lst[0]
+max2=lst[0]
+for i in range(0,n):
+    if(lst[i]>max1):
+        max2=max1
+        max1=lst[i]
+    elif(lst[i]>max2):
+        max2=lst[i]
+        
+
+print("The largest element is",max1)
+print('The second largest element is',max2)
