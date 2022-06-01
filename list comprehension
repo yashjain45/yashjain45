@@ -1,0 +1,1 @@
+lst=[i+j for i in [10,20,30] for j in [12,13,14] ];print(lst)
