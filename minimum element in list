@@ -1,0 +1,9 @@
+lst=[]
+n=int(input('Enter size of list ='))
+for i in range(0,n):
+    lst.append(int(input('Enter element =')))
+min=lst[0]
+for i in range(0,n):
+    if(lst[i]<min):
+        min=lst[i]
+print("The smallest element is",min)
