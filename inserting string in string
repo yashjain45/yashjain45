@@ -1,0 +1,16 @@
+s=input("Enter aq string \n")
+sub=input("Enter a string you want to insert \n")
+str1=[]
+pos=int(input("Enter its position\n"))
+l1=len(s)
+l2=len(sub)
+for i in range(0,pos):
+    str1.append(s[i])
+for i in range(0,l2):
+    str1.append(sub[i])
+for i in range(pos,l1):
+    str1.append(s[i])
+sep=' '
+str2=sep.join(str1)
+print(str2)
+    
