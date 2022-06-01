@@ -1,0 +1,15 @@
+class hiException(Exception):
+    pass
+def check():
+    a=int(input("Enter a first  number:"))
+    b=int(input("Enter a second number"))
+    print(a,b)
+    if(a<b):
+        raise hiException('first number cannot be bigger than second number')
+try:
+    check()
+except hiException as h:
+    print(h)
+        
+
+
